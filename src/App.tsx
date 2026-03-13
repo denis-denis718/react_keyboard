@@ -29,7 +29,7 @@ export class App extends React.Component<{}, State> {
       <div className="App">
         <p className="App__message">
           {pressedKey
-            ? `The last pressed key is ${pressedKey}`
+            ? `The last pressed key is [${pressedKey}]`
             : `Nothing was pressed yet`}
         </p>
       </div>
@@ -37,8 +37,3 @@ export class App extends React.Component<{}, State> {
   }
 }
 
-// export const App: React.FC = () => (
-//   <div className="App">
-//     <p className="App__message">The last pressed key is [Enter]</p>
-//   </div>
-// );
